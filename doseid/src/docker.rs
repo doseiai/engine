@@ -6,7 +6,6 @@ use flate2::Compression;
 use futures_util::StreamExt;
 use gcp_auth::AuthenticationManager;
 use std::default::Default;
-use std::error::Error;
 use std::fs::File;
 use std::hash::Hasher;
 use std::io::prelude::*;
